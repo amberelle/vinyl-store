@@ -1,0 +1,14 @@
+<div class="container">
+  <h1> Digital Devolution </h1>
+
+  <p>
+    buy and sell vinyl
+  </p>
+
+  <ul>
+    {{#each model as |record|}}
+      {{record-tile record=record}}
+    {{/each}}
+  </ul>
+  
+</div>
