@@ -1,16 +1,32 @@
 <div class="container">
 
-  <header>
+  <!-- <header>
     <h1> Digital Devolution </h1>
     <p>
       buy and sell vinyl
     </p>
   </header>
-  <hr>
+  <hr> -->
+  <div >
 
-  {{outlet}}
-  <hr>
-  <footer>
-    {{#link-to 'index'}}Home{{/link-to}}
-  </footer>
+
+    <div class="navbar navbar-inverse">
+      <h2 id="title">Digital Devolution</h2>
+      <p>
+        buy and sell vinyl
+      </p>
+
+      <!-- <h1 id="title-shadow">Q and A</h1> -->
+      <a id="navbar" class="navbar-brand text-muted" href="/">Home</a>
+
+      <a id="navbar" class="navbar-brand text-muted" href="/sell">Sell</a>
+      <a id="navbar" class="navbar-brand text-muted" href="/about">My Cart</a>
+
+    </div>
+    {{outlet}}
+  </div>
+
+
+
+
 </div>

@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 
 Router.map(function() {
   this.route('record', {path: 'record/:record_id'});
+  this.route('sell');
 });
 
 export default Router;
